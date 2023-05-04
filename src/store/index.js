@@ -2,7 +2,7 @@ import { createStore } from 'redux';
 
 // Changes Store Data
 const counterReducer = (
-    state = { count: 0 },
+    state = { counter: 0 },
     action
 ) => {
     switch (action.type) {
